@@ -12,13 +12,6 @@ a {
     text-decoration: none;
 }
 
-span {
-    font-size: 1.05rem;
-    font-family: 'Outfit', sans-serif;
-    color: hsl(215, 51%, 70%);
-    margin-right: 0.12rem;
-}
-
 .main {
     background-color: hsl(216, 50%, 16%);
     border-radius: 1rem;
@@ -105,6 +98,8 @@ span {
 }
 
 .author {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.05rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,25 +114,36 @@ span {
 }
 
 .author-name {
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.05rem;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 1rem;
+}
+.name {
     color: hsl(0, 0%, 100%);
     font-weight: 300;
     transition: color 2s;
-    display: inline-block;
+    font-size: 1rem;
 }
 
-.author-name:hover {
+.name:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+}
+
+.footer {
+   font-family: 'Outfit', sans-serif;
+   font-weight: 300;
+   margin: 0.1rem;
 }
 
 .attribution {
     color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
     font-size: 1rem;
-    text-align: center;
-    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
 }
 
 .attribution a {
