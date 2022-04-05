@@ -1,0 +1,144 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+.main {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    width: 15rem;
+    padding: 1rem;
+}
+
+.ethereum-image {
+    position: absolute;
+    width: 100%;
+    max-width: 15rem;
+    max-height: 15rem;
+    border-radius: 0.75rem;
+    transition: opacity 2s;
+}
+
+.container {
+    width: 14.9rem;
+    height: 14.9rem;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 0.75rem;
+}
+
+.view {
+    position: absolute;
+    top: 10.4rem;
+    left: 48.3%;
+}
+
+.ethereum-image:hover {
+    opacity: 0.095;
+    cursor: pointer;
+}
+
+.heading {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    transition: color 2s;
+}
+
+.heading:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.content {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.95rem;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.line {
+    border-bottom: solid hsl(215, 32%, 27%) 0.05rem;
+    margin-bottom: 0.5rem;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 0.75rem;
+}
+
+.price {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    margin-right: 2.5rem;
+    display: inline-block;
+}
+
+.countdown {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    display: inline-block;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 2.05rem;
+    height: 2.05rem;
+    border: solid 0.1rem hsl(0, 0%, 100%);
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+.author-name {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.05rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    transition: color 2s;
+    display: inline-block;
+}
+
+.author-name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
